@@ -1,0 +1,27 @@
+#exampleH1, #exampleH6 {
+    display: inline;
+    margin-right: 10px; /* Optional: Add some spacing between them */
+}
+
+/*gives table rows alternating background colors, making it easier to read*/
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
